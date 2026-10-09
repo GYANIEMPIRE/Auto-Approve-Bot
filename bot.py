@@ -22,9 +22,10 @@ APK_FILE_ID = os.getenv("APK_FILE_ID", "").strip()
 VOICE_FILE_ID = os.getenv("VOICE_FILE_ID", "").strip()
 
 WELCOME = (
-    "✨ HELLO BABY 🥰👋\n\n"
+    " HELLO BABY🥰\n\n"
     "AAPKI REQUEST JALDI HI APPROVE HO JAYEGI ✅\n\n"
-    "SETUP VIDEO & HACK APK NEECHE DIYA GAYA HAI 👇"
+    "SETUP VIDEO & HACK APK NEECHE DIYA GAYA HAI VIDEO 
+    DEKHO AUR PANEL KO USE KARO BABY👇"
 )
 
 
@@ -38,7 +39,7 @@ async def handle_join_request(
         return
 
     # Sirf configured channel ki requests handle karo.
-    if str(request.chat.id) != CHANNEL_ID:
+    if str(request.chat.id) != -1004327455535:
         return
 
     user_chat_id = request.user_chat_id
