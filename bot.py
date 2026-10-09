@@ -22,7 +22,7 @@ APK_FILE_ID = os.getenv("APK_FILE_ID", "").strip()
 VOICE_FILE_ID = os.getenv("VOICE_FILE_ID", "").strip()
 
 WELCOME = (
-    "✨ HELLO REAL 👑👋\n\n"
+    "✨ HELLO BABY 🥰👋\n\n"
     "AAPKI REQUEST JALDI HI APPROVE HO JAYEGI ✅\n\n"
     "SETUP VIDEO & HACK APK NEECHE DIYA GAYA HAI 👇"
 )
@@ -53,7 +53,7 @@ async def handle_join_request(
         # Video link seedhe message mein, bina button.
         await context.bot.send_message(
             chat_id=user_chat_id,
-            text=f"🎬 SETUP VIDEO\n{VIDEO_LINK}",
+            text=f"🎬 SETUP VIDEO\n{https://t.me/c/4327455535/4}",
         )
 
         # APK upload karne ke baad uska file_id Config Vars mein rakho.
